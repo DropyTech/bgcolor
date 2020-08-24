@@ -3,12 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Important</title>
+    <title>Change bg-Color</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Engagement&family=Nanum+Myeongjo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        height: 500px;
+        position: relative;
+      }
+
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      button {
+        padding: 15px 25px;
+        font-size: 24px;
+        font-family: "Nanum Myeongjo", serif;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #000;
+        background-color: #ffffff;
+        border: 1px solid #0bbfdf;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #c4c4c4;
+        transition-duration: 0.5s;
+      }
+    </style>
   </head>
   <body>
-    <center>
-      <button style="font-size: larger;">Click It</button>
-    </center>
+    <div class="container">
+      <div class="center">
+        <button>Click And See The Magic</button>
+      </div>
+    </div>
+
     <script src="./app.js"></script>
   </body>
 </html>
